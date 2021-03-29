@@ -1,0 +1,22 @@
+
+.head{
+    
+    font-family: 'Old English Text MT',fantasy;
+    text-align: center;
+    text-shadow: 0 0 5px red;
+    color: white;
+}
+
+fieldset legend {
+    border: 2px solid black;
+        padding: 10px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+}
+
+body  {
+    background-image: url("the.jpg");
+    
+
+  }
+  

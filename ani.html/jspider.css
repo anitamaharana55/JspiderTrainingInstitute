@@ -1,0 +1,68 @@
+body
+{
+    margin:0px;
+}
+
+header,footer
+{
+    background:linear-gradient(45deg,pink,red,green);
+    padding:20px;
+}
+header h1
+{
+    margin:0px;
+    font-size:40px;
+    color:white;
+    text-align:right;
+}
+/*Navbar Styles*/
+nav
+{
+    background:linear-gradient(45deg,blue,green,orange);
+    padding:10px;
+}
+nav a
+{
+    color:white;
+    text-decoration:none;
+    font-size:24px;
+    margin:20px 40px;
+}
+.fa
+{
+    padding-right:6px;
+}
+.div img{
+    width: 50px;
+    border-radius: 20px;
+    margin: auto;
+    height: 50px;
+}
+section
+{
+    float: left;
+    width: 100%;
+    margin-top: 100px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width:22%;
+    margin: 20px;
+    text-align: center;
+    font-family: arial;
+    float:left;
+    border: 2px solid black;
+}
+.card img{
+    height:100px;
+    width:200px;
+    margin:10px;
+}
+section{
+    margin:20px;
+}
+
+.sec2 img{
+    width:50%;
+
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS MEDIA QUERIES</title>
+    <style>
+       h1 {
+           text-align: center;
+       }
+       div h2 {
+           text-align: center;
+       }
+       div h2 {
+           text-align: center;
+           display: inline-block;
+       }
+       @media(max-width:500px)
+       {
+        body 
+        {
+            background-color: green;
+        }
+        div h2:nth-child(1)
+        {
+         display:block;
+        }
+       }
+      @media(min-width:501px)and(max-width:720px)
+      {
+          body 
+      {
+      background-color: red;
+      }
+      div h2:nth-child(2)
+      {
+          display: block;
+      }
+      }
+      @media(min-width:721px)and(max-width:920px)
+      {
+      body 
+      {
+          background-color: cyan;
+      }
+      div h2:nth-child(3)
+      {
+          display: block;
+      } 
+      }
+      @media(min-width:921px)
+      {
+      body 
+      {
+          background-color: cyan;
+      }
+      div h2:nth-child(4)
+      {
+          display: block;
+      } 
+      }
+      </style>
+    </head>
+<body>
+   <h1>Screen Size</h1> 
+   <div>
+       <h2>Small Size</h2>
+       <h2>Medimum Size</h2>
+       <h2>Large Size</h2>
+       <h2>X Large Size</h2>
+       </div>
+       <!--Script code-->
+       <script>
+           windoe.addEventListener(resize,function()
+           {
+               let ScreenSize;window;Innerwidth;
+               document.querySelector('#screen').innerTest=$
+               ScreenSize=px;
+           })
+           </script>
+</body>
+</html>

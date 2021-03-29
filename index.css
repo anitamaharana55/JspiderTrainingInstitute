@@ -1,0 +1,96 @@
+body
+{
+	margin:0px;
+	font-family:'comic sans ms',sans-serif;
+}
+
+/*-------Main Header--------*/
+#main-header
+{
+	background:linear-gradient(45deg,black,grey,purple);
+	background-size:cover;
+	padding:20px;
+	text-align:center;
+}
+#main-header h1
+{
+	color:white;
+	margin:0px;
+	box-shadow:10px;
+}
+
+/*-------Main Navbar--------*/
+#main-navbar
+{
+	background:linear-gradient(45deg,red,black,orange);
+	padding:10px;
+	display:flex;
+	flex-direction:row;
+}
+#main-navbar a
+{
+	color:white;
+	text-decoration:none;
+	margin-right:40px;
+	display:inline-block;
+	padding:5px 15px;
+	border-radius:10px;
+	background:linear-gradient(45deg,magenta,darkslategrey);
+}
+#main-navbar a:hover
+{
+	box-shadow:0 0 10px white;
+}
+#main-navbar a.active
+{
+	background:linear-gradient(45deg,darkslategrey,darkred);
+}
+.fa
+{
+	padding-right:5px;
+}
+
+/*----------Main Content Section----------*/
+#main-content-section
+{
+	text-align:center;
+	margin-top:15px;
+}
+#main-content-section .main-content-article
+{
+	box-shadow:0 0 10px black;
+	width: 300px;
+	display:inline-block;
+	height:400px;
+	margin-right:10px;
+	border-radius:20px;
+	display:inline-grid;
+}
+
+#main-content-section .main-content-article img
+{
+	width:inherit;
+}
+#main-content-section .main-content-article:hover
+{
+	width:340px;
+}
+
+/*------------Main Footer-------------*/
+footer
+{
+	background:linear-gradient(45deg,blue,grey,black);
+	color:black;
+	text-align:center;
+}
+@media (min-width:0px) and (max-width:800px)
+{
+	#main-navbar
+	{
+		flex-direction:column;
+	}
+	#main-navbar a
+	{
+		margin-top:10px;
+	}
+}

@@ -1,0 +1,59 @@
+body
+{
+    margin:0px;
+}
+
+header,footer
+{
+    background:linear-gradient(45deg,orange,limegreen,blue);
+    padding:20px;
+}
+header h1
+{
+    margin:0px;
+    font-size:40px;
+    color:white;
+    text-align:right;
+}
+/*Navbar Styles*/
+nav
+{
+    background:linear-gradient(45deg,blue,green,orange);
+    padding:10px;
+}
+nav a
+{
+    color:white;
+    text-decoration:none;
+    font-size:24px;
+    margin:20px 40px;
+}
+.fa
+{
+    padding-right:6px;
+}
+/*Sidebar*/
+aside
+{
+    background:linear-gradient(45deg,coral,limegreen,cyan);
+    width:200px;
+    text-align:center;
+    height:714px;
+    float:left;
+    position:sticky;
+    top:0px;
+}
+aside a
+{
+    text-decoration:none;
+    display:block;
+    text-transform:uppercase;
+    margin-bottom:40px;
+    padding:10px 20px;
+
+}
+aside a:hover
+{
+    background:linear-gradient(45deg,coral,red,blue);
+    border-radius: 20px;
+}
